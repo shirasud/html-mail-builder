@@ -1,0 +1,162 @@
+// FIXME: @use
+@import "../base";
+
+td {
+  padding: 0;
+  margin: 0;
+  word-break: break-all;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f1f1f1;
+  color: #333333;
+  margin: 0;
+}
+
+.body {
+  width: 600px;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+/************************************
+* color
+*************************************/
+.color {
+  &-black {
+    color: #333333;
+  }
+
+  &-white {
+    color: #ffffff;
+  }
+
+  &-gray {
+    line-height: 14px;
+    color: #808080;
+  }
+}
+
+/************************************
+* button & Icon
+*************************************/
+.btn_dummy_text img {
+  width: 160px;
+}
+
+/************************************
+* height
+*************************************/
+.height {
+  &-8 {
+    height: 8px;
+  }
+  &-16 {
+    height: 16px;
+  }
+  &-24 {
+    height: 24px;
+  }
+  &-32 {
+    height: 32px;
+  }
+  &-40 {
+    height: 40px;
+  }
+  &-48 {
+    height: 48px;
+  }
+  &-56 {
+    height: 56px;
+  }
+  &-64 {
+    height: 64px;
+  }
+}
+
+/************************************
+* Font
+*************************************/
+.font {
+  &-12 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+  }
+  &-14 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  &-18 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+  }
+  &-24 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  &-bold {
+    font-weight: bold !important;
+  }
+}
+
+/************************************
+* Align
+*************************************/
+
+.align-center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.v-align-middle {
+  vertical-align: middle;
+}
+
+/************************************
+* Footer
+*************************************/
+
+.footer {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #909090;
+
+  p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    color: #ffffff;
+  }
+
+  a {
+    text-decoration-line: underline;
+    color: #ffffff;
+  }
+}
+
+/************************************
+* Media Query
+*  FIXME: テーマのejsファイルの<head>タグ内に記述する必要あり
+*************************************/

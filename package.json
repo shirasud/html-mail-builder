@@ -1,0 +1,27 @@
+{
+  "name": "html-mail-builder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "fs": "^0.0.1-security",
+    "gulp": "^4.0.2",
+    "gulp-ejs": "^5.1.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-inline-css": "^3.5.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.1.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "run-sequence": "^2.2.1"
+  },
+  "scripts": {
+    "browser": "browser-sync start -s ./public/ --port 8000 --no-notify --no-ghost-mode -f ./public/",
+    "build:dev": "./node_modules/.bin/gulp build:dev",
+    "sass": "./node_modules/.bin/gulp sass",
+    "watch": "./node_modules/.bin/gulp watch"
+  }
+}
